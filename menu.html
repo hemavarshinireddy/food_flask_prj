@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>menu</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    </head>
+    <body class="menu">
+    <h1><center><font color='white'><i><u>MENU</u></i></font></center></h1>   
+    <h2><center><font color='white'>...VEG...</font></center></h2>
+    <h3><p><center><font color='white'>
+       1.Dosa.....................................₹50<br>
+       2.Idly.....................................₹50<br>
+       3.Noodles..................................₹70<br>
+       4.Fried Rice...............................₹70<br>
+       5.veg biriyani.............................₹80<br>
+       6.mushroom biriyani........................₹100<br><br> 
+    </font></center></p></h3> 
+    <h2><center><font color='white'>...NON-VEG...</font></center></h2>
+    <h3><p><center><font color='white'>
+       1.Cabab....................................₹100<br>
+       2.chilli chicken...........................₹110<br>
+       3.Chicken Lollipop.........................₹120<br>
+       4.Chicken Biriyani.........................₹150<br>
+       5.Egg Fried Rice...........................₹120<br>
+       6.Mutton Biriyani..........................₹180<br><br>
+    </font></center></p></h3>
+    <form action='/billgenerate' method="post">
+       <div class="button-container"><center><input type="submit" value="Select_The_Items">
+        </div>
+    </form>     
+    </body>
+</html>

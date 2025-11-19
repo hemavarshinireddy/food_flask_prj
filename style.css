@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: 
+    url("home_image");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+h1 {
+    background-color: #04090f;
+    display: block;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    display: 100px;;
+    margin-bottom: 20px;
+    background-position:center;
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #04090f;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+body.home
+{
+    margin:auto;
+    font-family: arial;
+    background-image: 
+    url("https://img.freepik.com/premium-photo/assorted-indian-food-black-background_756748-18795.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.details 
+{
+    margin:auto;
+    font-family: sans-serif;
+    background-image: 
+    url("https://img.freepik.com/premium-photo/beautiful-restaurant-food-black-background-generative-ai_73944-32275.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body.details h2
+{
+    background-color: #04090f;
+    display: block;
+    background-position: center;
+}
+body.details h3{
+    background-color: #04090f;
+    display: block;
+    background-position: center;
+}
+body.menu
+{
+  margin:auto;
+    font-family: sans-serif;
+    background-image: 
+    url("https://i.pinimg.com/474x/f5/2a/66/f52a6672662de5adfa03e4a574bb1d39.jpg?nii=t");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    
+
+
+}
+body.billgenerate
+{
+    margin:auto;
+    font-family: sans-serif;
+    background-image: 
+    url("https://wallpapers.com/images/featured/high-resolution-black-and-gold-background-y0od1fpr6ok7cjkj.jpg");
+    background-size: 150% 150%;
+    height:100%;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing:border-box;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 100vh;  
+    
+}

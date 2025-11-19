@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>billgenerate</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+        </head>
+    <body class="billgenerate">
+    <form method="POST" style="text-align:center;">
+        <h2>Select The Items</h2>
+        {% for item,price in items.items()%}
+        <label><input type="checkbox" name="item" value="{{item}}"{% if item in selected %}checked{%endif%}>
+        {{item}}-₹
+        {{price}}
+        <br>
+        </label><br>
+        {% endfor %}
+        <br>
+        <input type="submit" value="generate_bill">
+    </form> 
+    <h3><center>****************************************************************************</center></h3>
+    {% if selected %} 
+  
+        <h2><center>BILL { SCROLL DOWN }</center></h2>
+        <ul>
+            {% for item in selected %}<center>
+            <li><h3><center>{{item}}-₹ {{items[item]}}</center></h3></li>
+            </center>
+            {% endfor %}
+        </ul>
+        <strong><center><h3>total:₹{{total}}</h3></center></strong>
+          
+    {% endif %}
+        
+    </body>
+</html>
